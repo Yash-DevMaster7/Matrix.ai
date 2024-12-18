@@ -1,0 +1,45 @@
+.scrollable-div::-webkit-scrollbar {
+  display: none; /* Hides the scrollbar */
+}
+.markdown strong {
+  color: rgb(5, 124, 124);
+  font-weight: 700;
+}
+.markdown p {
+  margin: 12px 0;
+}
+.markdown ul {
+  list-style-type: disc;
+}
+.markdown li {
+  margin: 8px 0;
+}
+.markdown pre {
+  color: rgb(255, 251, 0);
+}
+
+.text-editor {
+  font-family: "Courier New", Courier, monospace; /* Monospaced font */
+  font-weight: 400;
+  background-color: #1e1e1e; /* Dark background */
+  color: #ffffff; /* White text */
+  padding: 20px; /* Padding for spacing */
+  border: 1px solid #444; /* Border to resemble a text editor */
+  border-radius: 5px; /* Rounded corners */
+  position: relative; /* For cursor positioning */
+  overflow: hidden; /* Hide overflow */
+}
+
+.cursor {
+  position: absolute;
+  width: 2px; /* Cursor width */
+  height: 1.2em; /* Cursor height */
+  background-color: rgb(37, 95, 235); /* Cursor color */
+  animation: blink 1s step-end infinite; /* Blinking effect */
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0; /* Blink effect */
+  }
+}
