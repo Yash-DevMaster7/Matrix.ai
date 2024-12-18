@@ -35,7 +35,7 @@ function App() {
         <div className="h-full flex flex-col justify-around items-center">
           <div className="w-11/12 h-1/3 flex flex-col justify-around">
             <div className="text-center">
-              <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
+              <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight md:text-5xl lg:text-6xl text-white">
                 Chat with{" "}
                 <span className="underline text-blue-600 dark:text-blue-600">
                   Matrix.ai
@@ -43,7 +43,7 @@ function App() {
               </h1>
             </div>
             <div className="text-center mt-2 md:mt-0">
-              <h1 className="mb-1 text-lg font-extrabold leading-none tracking-tight text-gray-900 dark:text-white">
+              <h1 className="mb-1 text-lg font-extrabold leading-none tracking-tight text-white">
                 <mark className="px-2 text-white bg-blue-600 rounded dark:bg-blue-500">
                   Curious ?
                 </mark>{" "}
